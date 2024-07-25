@@ -251,6 +251,9 @@ The project is organized as follows:
 ## Known Issues
 - **Misalignment of Board Cells**: Some cells on the board may be misaligned with others.
 
+## Video Tutorial
+- https://www.loom.com/share/b755d91a481f4f3b86556704785de132?sid=8a528fdd-91ef-4b39-83d6-2cd3bcb242e6
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
