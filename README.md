@@ -1,4 +1,4 @@
-# snake-and-ladder
+# Snake and Ladder - Classic Board Game
 
 Welcome to the Snake and Ladder Game! This is a classic board game built with React for the frontend and Express.js with MongoDB for the backend. The game includes player vs computer functionality, game state saving and loading, and interactive gameplay with playing log.
 
