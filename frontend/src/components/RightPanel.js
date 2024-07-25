@@ -11,7 +11,7 @@ const RightPanel = ({ onRollDice, playerDiceRoll, disabled, onLoadGame, onSaveGa
       playerDiceRoll={playerDiceRoll}
       disabled={disabled}
     />
-    <div className="player-box">Player</div>
+    <div className="player-box">You</div>
     <div className="computer-box">Computer</div>
     <GameControls
       onLoadGame={onLoadGame}

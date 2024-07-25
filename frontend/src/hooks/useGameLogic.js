@@ -52,7 +52,7 @@ const useGameLogic = () => {
     const gameName = prompt('Enter the existing game ID to load:');
     if (gameName !== null) { // Check if the prompt was not cancelled
       if (gameName.trim() !== '') {
-        loadGame(gameName, setGameId, setPlayerPosition, setComputerPosition, setActivePlayer, setDiceRoll, setGameOver, setActivityLog, (msg, type, player) => addToActivityLog(activityLog, setActivityLog, msg, type, player));
+        loadGame(gameName, setGameId, setPlayerPosition, setComputerPosition, setActivePlayer, setPlayerDiceRoll, setGameOver, setActivityLog, (msg, type, player) => addToActivityLog(activityLog, setActivityLog, msg, type, player));
       } else {
         alert('Game ID cannot be empty!');
       }
@@ -63,7 +63,7 @@ const useGameLogic = () => {
     const gameName = prompt('Enter a name to save or overwrite the game:');
     if (gameName !== null) { // Check if the prompt was not cancelled
       if (gameName.trim() !== '') {
-        saveGame(gameName, playerPosition, computerPosition, activePlayer, diceRoll, gameOver, activityLog, (msg, type, player) => addToActivityLog(activityLog, setActivityLog, msg, type, player));
+        saveGame(gameName, playerPosition, computerPosition, activePlayer, playerDiceRoll, gameOver, activityLog, (msg, type, player) => addToActivityLog(activityLog, setActivityLog, msg, type, player));
       } else {
         alert('Game name cannot be empty!');
       }

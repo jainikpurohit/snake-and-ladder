@@ -250,7 +250,6 @@ The project is organized as follows:
 
 ## Known Issues
 - **Misalignment of Board Cells**: Some cells on the board may be misaligned with others.
-- **Dice Roll Text**: Dice Roll value is not being reflected correctly when you load game.
 
 ## License
 
