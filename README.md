@@ -28,6 +28,8 @@ Welcome to the Snake and Ladder Game! This is a classic board game built with Re
          - [Board Styling](#board-styling)
          - [CSS Styling](#css-styling)
    * [Additional Notes](#additional-notes)
+   * [Upcoming Features](#upcoming-features)
+   * [Known Issues](#known-issues)
    * [License](#license)
    * [Contributing](#contributing)
    * [Contact](#contact)
@@ -237,6 +239,18 @@ The project is organized as follows:
 
 - Ensure that your backend server is properly configured to handle API requests.
 - Connect to the appropriate MongoDB instance if saving and loading game states.
+
+## Upcoming Features
+- **Multiplayer Mode**: Add support for multiple players.
+- **Customizable Board**: Allow users to customize the size and layout of the board and reshuffle snake and ladder positions.
+- **Save and Load**: Implement more advanced game state saving and loading features and includes prompts.
+- **Winner Announcement**: Eye catching winner announcement above the board.
+- **User Authentication**: Add support for User authentication and display all previous game stored by same user.
+- **Observability**: Measure metric and add more Observability for the application.
+
+## Known Issues
+- **Misalignment of Board Cells**: Some cells on the board may be misaligned with others.
+- **Dice Roll Text**: Dice Roll value is not being reflected correctly when you load game.
 
 ## License
 
