@@ -3,6 +3,34 @@
 Welcome to the Snake and Ladder Game! This is a classic board game built with React for the frontend and Express.js with MongoDB for the backend. The game includes player vs computer functionality, game state saving and loading, and interactive gameplay with playing log.
 
 ## Table of Contents
+   * [Game Rules](#game-rules)
+   * [Features](#features)
+   * [Deploy Application](#deploy-application)
+      + [Installation](#installation)
+      + [Running the Backend](#running-the-backend)
+      + [Running the Frontend](#running-the-frontend)
+   * [Application Backend](#application-backend)
+      + [Overview](#overview)
+      + [Features](#features-1)
+      + [Technologies Used](#technologies-used)
+      + [Getting Started](#getting-started)
+         - [Prerequisites](#prerequisites)
+      + [API Endpoints](#api-endpoints)
+         - [Save Game State](#save-game-state)
+         - [Load Game State](#load-game-state)
+      + [File Structure](#file-structure)
+      + [Code Quality and Security](#code-quality-and-security)
+   * [Application Frontend](#application-frontend)
+      + [Overview](#overview-1)
+      + [Features](#features-2)
+      + [Project Structure](#project-structure)
+      + [Configuration](#configuration)
+         - [Board Styling](#board-styling)
+         - [CSS Styling](#css-styling)
+   * [Additional Notes](#additional-notes)
+   * [License](#license)
+   * [Contributing](#contributing)
+   * [Contact](#contact)
 
 ## Game Rules
 
@@ -62,7 +90,7 @@ npm start
 ```
 4. The server will be running on http://localhost:3000.
 
-## Snake and Ladder Game Backend
+## Application Backend
 
 ### Overview
 
@@ -94,21 +122,6 @@ This backend application provides APIs for managing the state of a Snake and Lad
 
 - Node.js and npm
 - MongoDB (local or remote)
-
-#### Installation
-
-1. Clone the repository.
-```bash
-git clone git@github.com:jainikpurohit/snake-and-ladder.git
-```
-2. Navigate into the project directory.
-```bash
-cd snake-and-ladder/backend
-```
-3. Install dependencies.
-```bash
-npm install
-```
 
 ### API Endpoints
 
@@ -183,7 +196,7 @@ npm install
 - **Logging**: `morgan` is used for HTTP request logging.
 - **Security**: `helmet` and `express-rate-limit` for basic security and rate limiting.
 
-## Snake and Ladder Game Frontend
+## Application Frontend
 
 ### Overview
 
