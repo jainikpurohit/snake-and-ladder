@@ -1,0 +1,57 @@
+.App-activity-log {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure it takes full height of the container */
+}
+
+.App-activity-log h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.App-activity-log ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.App-activity-log li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.App-activity-log .winner {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d32f2f;
+  text-align: center;
+}
+
+.player-message {
+  text-align: left; /* Left align for player messages */
+}
+
+.computer-message {
+  text-align: right; /* Right align for computer messages */
+}
+
+.snake-message {
+  color: #d32f2f;
+}
+
+.ladder-message {
+  color: #388e3c;
+}
+
+.dice-roll-message {
+  color: #000;
+}

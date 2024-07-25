@@ -1,0 +1,13 @@
+.dice-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.dice-roll-display {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}

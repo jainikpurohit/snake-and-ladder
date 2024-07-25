@@ -1,2 +1,2 @@
 # snake-and-ladder
-Snake and Ladder Game
+Simple Snake and Ladder Game using React + Node + MongoDB

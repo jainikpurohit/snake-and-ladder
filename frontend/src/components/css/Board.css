@@ -1,0 +1,73 @@
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid #ddd; /* Bright black for grid lines */
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  font-size: 16px; /* Larger font size for better readability */
+  font-weight: bold; /* Bold font for cell numbers */
+  padding: 5px;
+}
+
+.snake {
+  background-color: #f5c6c6; /* Slightly darker red */
+  color: black;
+}
+
+.ladder {
+  background-color: #c3e6cb; /* Slightly darker green */
+  color: black;
+}
+
+.player {
+  border: 2px solid yellow;
+}
+
+.computer {
+  border: 2px solid lightblue;
+}
+
+.destination-box {
+  position: absolute;
+  font-size: 12px; /* Slightly larger font size for better readability */
+  font-weight: bold; /* Bold font for destination numbers */
+  border: 1px solid #333; /* Darker border for visibility */
+  border-radius: 3px;
+  width: 22px; /* Slightly wider box */
+  height: 18px; /* Slightly taller box */
+  text-align: center;
+  line-height: 18px; /* Center text vertically */
+}
+
+.ladder-box {
+  top: 1px; /* Positioned on top of the cell number */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d4edda; /* Light green */
+  color: black; /* Black text for contrast */
+}
+
+.snake-box {
+  bottom: 5px; /* Positioned at the bottom of the cell */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f8d7da; /* Light red */
+  color: black; /* Black text for contrast */
+}
+
+.winning-cell {
+  background-color: #66ff00; /* Bright yellow for the winning cell */
+  color: black; /* Ensure text color is visible against the background */
+  font-weight: bold; /* Bold font to highlight the cell */
+}

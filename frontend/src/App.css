@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+  overflow: hidden; /* Ensure child elements don't overflow */
+}
+
+.App-board {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.board table {
+  border-collapse: collapse;
+}
+
+.board td {
+  border: 2px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.snake, .ladder {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 12px;
+}
+
+.snake {
+  color: red;
+}
+
+.ladder {
+  color: green;
+}
+
+.player {
+  background-color: yellow;
+}
+
+.computer {
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: #ddd;
+}

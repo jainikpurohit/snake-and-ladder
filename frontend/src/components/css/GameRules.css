@@ -1,0 +1,12 @@
+.App-rules {
+  width: 25%;
+  background: #f4f4f4;
+  border-right: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure it takes full height of the container */
+}
+
+.App-rules h2{
+  text-align: center;
+}
