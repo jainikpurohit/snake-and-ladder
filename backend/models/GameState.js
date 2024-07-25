@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// Define a schema for the game state
+// Define a schema for storing game state in mongo db
 const gameStateSchema = new mongoose.Schema({
   gameId: { type: String, required: true, unique: true },
   playerPosition: Number,
